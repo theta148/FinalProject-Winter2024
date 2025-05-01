@@ -15,6 +15,9 @@ public abstract class Vehicle {
         this.price = price;
     }
 
+    /**
+     * Displays the car model, version, year, and price.
+     */
     public abstract void displayInfo();
 
     @Override

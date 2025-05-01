@@ -3,9 +3,9 @@ package org.example;
 import java.util.Objects;
 
 public abstract class User {
-    private String name;
-    private String email;
-    private String id; // consists of a letter and 3 numbers.
+    protected String name;
+    protected String email;
+    protected String id; // consists of a letter and 3 numbers.
 
     public User() {
         this.name = "";
@@ -19,6 +19,9 @@ public abstract class User {
         this.id = id;
     }
 
+    /**
+     * Allows Users to access the system.
+     */
     public abstract void accessSystem();
 
     @Override
