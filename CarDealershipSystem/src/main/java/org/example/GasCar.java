@@ -14,7 +14,7 @@ public class GasCar extends Vehicle{
      * Test drive a gas car.
      */
     public void testDrive() {
-        System.out.println("Test-driving the " + version);
+        System.out.println("Test-driving the " + version + " has the gas car feel.");
     }
 
     @Override

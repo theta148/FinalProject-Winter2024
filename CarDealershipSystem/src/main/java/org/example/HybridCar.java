@@ -14,7 +14,7 @@ public class HybridCar extends Vehicle{
      * Test drive a hybrid car.
      */
     public void testDrive() {
-        System.out.println("Test-driving the " + version);
+        System.out.println("Test-driving the " + version + " has the best of both worlds.");
     }
 
 }

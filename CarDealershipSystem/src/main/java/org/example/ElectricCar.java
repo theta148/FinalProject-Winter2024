@@ -14,7 +14,7 @@ public class ElectricCar extends Vehicle{
      * Test drive an electric car.
      */
     public void testDrive() {
-        System.out.println("Test-driving the " + version);
+        System.out.println("Test-driving the " + version + " more quiet than a ags car.");
     }
 
     @Override
